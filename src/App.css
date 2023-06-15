@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+
+}
+
+.dark {
+  background-color: #1a1919;
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 150px;
+  text-align: center;
+  width: 500px;
+}
+
+.container div {
+  padding: 10px;
+  border-radius: 5px ;
+  font-size: 17px;
+}
+
+button {
+  border: none;
+  margin-top: 10px;
+  padding: 7px 20px;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
